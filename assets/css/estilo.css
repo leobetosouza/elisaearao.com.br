@@ -50,12 +50,18 @@
     font-weight: normal;
     font-style: normal;
 }
+
+
+
+
+
 /*
 	-------------------
 	# DEFAULT
 	-------------------
 */
 body{
+    font-family: 'open_sanslight', arial, sans-serif;
 	margin: 0;
 	overflow-x: hidden;
 }
@@ -73,8 +79,8 @@ body{
 .frase-topo{
 	width:100%;
 	text-align:center;
-	font: 33px 'open_sanslight', arial, sans-serif;
-	color:#515151;
+	font-size: 33px;
+	color:#575757;
 	padding:10px;
 }
 .img_topo{
@@ -84,3 +90,42 @@ body{
 	overflow: hidden;
 	margin: 0 auto;
 }
+
+
+
+
+
+/*
+	-------------------
+	# Menu
+	-------------------
+*/
+
+.menu{
+    width: 960px;
+    border-bottom: 1px solid #73b090;
+    margin: 0 auto 30px;
+    text-align:center;
+    font: 18px 'open_sansregular';
+    text-transform: uppercase;
+    list-style:none;
+	color: #73b090;
+    padding:24px 0;
+}
+.menu li{
+    display: inline;
+    margin: 0 4px;
+}
+.menu a{
+    color:#515151;
+    text-decoration: none;
+}
+.menu a:hover{
+    color:#73b090;
+}
+.menu a.selected{
+    color: #73b090;
+}
+
+
+
