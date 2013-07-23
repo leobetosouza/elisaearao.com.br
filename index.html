@@ -10,13 +10,15 @@
 		<div class="topo"></div>
 		<p class="frase-topo">"Porque namoro a distância não dá certo". Será?</p>
 		<div class="img_topo"></div>
-		<ul class="menu">
-			<li><span class="divisor">// </span><a class="selected" href="#">Somos Bacanas</a></li>
-			<li><span class="divisor">// </span><a href="#">Nossos Padrinhos</a></li>
-			<li><span class="divisor">// </span><a href="#">Presentes de Casamento</a></li>
-			<li><span class="divisor">// </span><a href="#">Local e Horário</a></li>
+		<div class="holderMenu" id="holderMenu">
+		<ul class="menu" id="menu">
+			<li><span class="divisor">// </span><a href="#ancBacanas">Somos Bacanas</a></li>
+			<li><span class="divisor">// </span><a href="#ancPadrinhos">Nossos Padrinhos</a></li>
+			<li><span class="divisor">// </span><a href="#ancPresentes">Presentes de Casamento</a></li>
+			<li><span class="divisor">// </span><a href="#ancLocal">Local e Horário</a></li>
 		</ul>
-		<div class="bacanas">
+		</div>
+		<div class="bacanas" id="ancBacanas">
 			<div class="texto-bacanas">
 				<h1 class="titulo-bacanas"><div class="icons icon-bacana"></div>Sim! Somos muito bacanas</h1>
 				<div class="clear"></div>
@@ -24,9 +26,11 @@
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada enim eu tempus viverra. Curabitur quis tempor mi. Integer in sodales ligula, id iaculis nibh. Curabitur sed nulla sit amet tellus pellentesque semper sit amet sagittis mauris. Pellentesque sagittis sem est, ac hendrerit diam blandit sed. Vivamus placerat consectetur mollis. Praesent porttitor id mi sit amet laoreet. Maecenas vel aliquam metus. Phasellus ac ante pellentesque, ullamcorper eros vel, vestibulum ligula. Aliquam rutrum ut arcu eget blandit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eget sapien nec augue dignissim fringilla. Morbi ante diam, malesuada eget molestie eu, semper vitae nisl. 
 				</p>
 			</div>
+			<div class="nos">
+			</div>
 			<div class="clear"></div>
 		</div>
-		<div class="padrinhos">
+		<div class="padrinhos" id="ancPadrinhos">
 			<div class="center-padrinhos">
 				<h1 class="titulo-padrinhos">Nossos Padrinhos</h1>
 				<div class="clear"></div>
@@ -100,7 +104,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="presentes">
+		<div class="presentes" id="ancPresentes">
 			<div class="blocos-texto-presentes bloco-presentes-e">
 				<h2 class="titulo-presentes">
 					Chá de Panela
@@ -126,7 +130,7 @@
 			</div>
 			<div class="clear"></div>
 		</div>
-		<div class="local">
+		<div class="local" id="ancLocal">
 			<div class="topo-local">
 				<h1 class="titulo-local">
 					Horário e Local do Casório
@@ -150,5 +154,7 @@
 		</div>
 		<div class="rodape">Tayane + Felipe</div>
 	</div>
+	<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/engine.js"></script>
 </body>
 </html>
