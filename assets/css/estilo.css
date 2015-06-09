@@ -160,6 +160,7 @@ h1,h2,h3,h4,p{
 .titulo-bacanas{
     font-size:34px;
     float:left;
+    margin-bottom: 20px;    
 }
 .icon-bacana{
     margin:10px 10px 0 0;
@@ -263,7 +264,7 @@ ROSTO DOS PADRINHOS
 .presentes{
     width:960px;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 20px 0;
     color:#575757;
 }
 .blocos-texto-presentes{
@@ -289,6 +290,7 @@ ROSTO DOS PADRINHOS
 .titulo-presentes{
     font-size:36px;
     color:#49B290;
+    margin-bottom: 10px;
 }
 .texto-presentes{
     line-height:20px;
@@ -315,7 +317,7 @@ ROSTO DOS PADRINHOS
 */
 .local{
     width:956px;
-    margin:50px auto 100px;
+    margin:20px auto 40px;
     border:2px solid #49B290;
 }
 .topo-local{
@@ -335,7 +337,7 @@ ROSTO DOS PADRINHOS
 .texto-local{
     width:234px;
     float:left;
-    margin: 40px 0 0 14px;
+    margin: 20px 0 0 14px;
 }
 .endereco{
     color: #49B290;
